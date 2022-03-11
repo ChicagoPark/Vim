@@ -1,5 +1,4 @@
 # Vim
-Vim Tutorial: 18:31
 
 ## [0] Useful Pluggin
 
