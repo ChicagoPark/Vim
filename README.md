@@ -18,5 +18,8 @@ A # insert mode from the last line
 
 ## [] Make Vim Beautiful
 ```bash
+Basic directory for config setting
+$ nvim ~/.config/nvim/init.vim
+
 :set number   # get the line number in front
 ```
