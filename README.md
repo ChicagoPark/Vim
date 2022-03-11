@@ -1,7 +1,12 @@
 # Vim
 
-## [0] Useful Pluggin
+47:30
 
+
+## [0] Useful Pluggin
+```bash
+have a look at init.vim file
+```
 
 
 
