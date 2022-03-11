@@ -17,6 +17,7 @@ dd # delete the line
 D  # delete the characters next to the cursor
 cc # delete and activate insert mode at the same time
 C  # delete the characters next to the cursor then activate insert mode
+ciw# remove the word and start inserting
 yy # copy the line
 p  # paste the line
 
@@ -25,7 +26,14 @@ Ctrl + R # redu
 
 v # visual mode to drag 
 
+[Moving]
 NUM + [j/k] # move the lines with the gap of NUM
+b           # move backward
+w           # move forward
+
+0           # move to beginning
+$           # move to the last point
+%           # jump between bracket
 ```
 
 
