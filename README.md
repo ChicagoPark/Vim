@@ -24,8 +24,11 @@ cc # delete and activate insert mode at the same time
 C  # delete the characters next to the cursor then activate insert mode
 ciw# delete the word and start inserting
 dG # delete the whole text
+dw # delete the word
 yy # copy the line
+yiw# copy the word
 p  # paste the line
+r  # replace the word on the cursor
 
 u        # undo
 Ctrl + R # redu
