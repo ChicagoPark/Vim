@@ -22,7 +22,8 @@ dd # delete the line
 D  # delete the characters next to the cursor
 cc # delete and activate insert mode at the same time
 C  # delete the characters next to the cursor then activate insert mode
-ciw# remove the word and start inserting
+ciw# delete the word and start inserting
+dG # delete the whole text
 yy # copy the line
 p  # paste the line
 
