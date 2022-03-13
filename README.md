@@ -75,11 +75,13 @@ sudo apt install neovim
 
 3. After add Plugins, type ":PlugInstall" in init.vim file
 
-# coc setting => 다음에 
-1. find plugged
+# coc setting => 다음에 잘 정리해두자
+1. find plugged folder
 I found it from "~/.local/share/nvim/plugged/coc.nvim$"
 then follow the video
 ```
+
+coc cpp: https://tyanjournal.com/tips/neovim-c-ide/
 
 
 
