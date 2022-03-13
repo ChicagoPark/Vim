@@ -12,3 +12,4 @@ https://www.jetbrains.com/help/pycharm/using-product-as-the-vim-editor.html
 1. IdeaVim
 2. One Dark theme
 3. Atom Material Icons
+4. CSV
