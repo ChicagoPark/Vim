@@ -54,16 +54,26 @@ vi ~/.vimrc
 
 ## Install Neovim
 ```bash
+Best Guide Video: https://www.youtube.com/watch?v=JWReY93Vl6g&t=179s
+
 # Install Neovim
 sudo apt update
 sudo apt install neovim
 
-# Make config file
+# Make config file (keep in mind our directory is in ~)
 ~$ mkdir .config
 ~$ cd .config
 ~/.config$ mkdir nvim
 ~/.config$ cd nvim/
 ~/.config/nvim$ nvim init.vim
+
+# Plugins setting
+1. go to this repository: https://github.com/junegunn/vim-plug
+~/.config/nvim$ PASTE_HERE
+
+2. We can add plugins into our init.vim file between "call plug#begin()" and "call plug#end()"
+
+3. After add Plugins, type ":PlugInstall" in init.vim file
 ```
 
 
