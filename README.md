@@ -74,7 +74,13 @@ sudo apt install neovim
 2. We can add plugins into our init.vim file between "call plug#begin()" and "call plug#end()"
 
 3. After add Plugins, type ":PlugInstall" in init.vim file
+
+# coc setting => 다음에 
+1. find plugged
+I found it from "~/.local/share/nvim/plugged/coc.nvim$"
+then follow the video
 ```
+
 
 
 <!--
