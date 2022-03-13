@@ -52,6 +52,20 @@ edit vimrc
 vi ~/.vimrc
 ```
 
+## Install Neovim
+```bash
+# Install Neovim
+sudo apt update
+sudo apt install neovim
+
+# Make config file
+~$ mkdir .config
+~$ cd .config
+~/.config$ mkdir nvim
+~/.config$ cd nvim/
+~/.config/nvim$ nvim init.vim
+```
+
 
 <!--
 Basic directory for config setting
