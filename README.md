@@ -111,8 +111,12 @@ I found it from "~/.local/share/nvim/plugged/coc.nvim$"
 6. :CocInstall coc-python
 
 etc.
+1. For coc setting
 ~/.config/nvim$ pip3 install jedi
 ~/.config/nvim$ nvim init.vim
+
+2. When there is an error for :TerminalSplit bash
+~/.config/nvim$ python3 -m pip install --user --upgrade pynvim
 ```
 
 coc cpp: https://tyanjournal.com/tips/neovim-c-ide/
