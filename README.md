@@ -105,6 +105,14 @@ I found it from "~/.local/share/nvim/plugged/coc.nvim$"
 
 
 4. ~/.local/share/nvim/plugged/coc.nvim$ yarn build
+
+5. ~/.config/nvim$ nvim init.vim
+
+6. :CocInstall coc-python
+
+etc.
+~/.config/nvim$ pip3 install jedi
+~/.config/nvim$ nvim init.vim
 ```
 
 coc cpp: https://tyanjournal.com/tips/neovim-c-ide/
