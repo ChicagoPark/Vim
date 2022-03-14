@@ -60,6 +60,12 @@ Best Guide Video: https://www.youtube.com/watch?v=JWReY93Vl6g&t=179s
 sudo apt update
 sudo apt install neovim
 
+`supplement thing: ~/.config/nvim$`
+sudo apt install git
+sudo apt install exuberant-ctags
+sudo apt install nodejs
+sudo apt install npm
+
 # Make config file (keep in mind our directory is in ~)
 ~$ mkdir .config
 ~$ cd .config
@@ -75,10 +81,30 @@ sudo apt install neovim
 
 3. After add Plugins, type ":PlugInstall" in init.vim file
 
-# coc setting => 다음에 잘 정리해두자
+# coc setting 
 1. find plugged folder
 I found it from "~/.local/share/nvim/plugged/coc.nvim$"
-then follow the video
+
+2. ~/.local/share/nvim/plugged/coc.nvim$ sudo npm install -g yarn
+
+3. ~/.local/share/nvim/plugged/coc.nvim$ yarn install
+
+  [Encountered Problems]
+  (base) chicago@chicago-com:~/.local/share/nvim/plugged/coc.nvim$ yarn install
+  yarn install v1.22.17
+  [1/5] Validating package.json...
+  error coc.nvim-master@0.0.80: The engine "node" is incompatible with this module. Expected version ">=12.12.0". Got "10.19.0"
+  error Found incompatible module.
+  info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+  
+  [Solution]:Node 업데이트
+  $ sudo npm cache clean -f # 강제캐시삭제
+  $ sudo npm install -g n # n 모듈 설치
+  $ sudo n stable # or sudo n 12.14.0 (버전명)
+  $ node -v # 버전 확인
+
+
+4. ~/.local/share/nvim/plugged/coc.nvim$ yarn build
 ```
 
 coc cpp: https://tyanjournal.com/tips/neovim-c-ide/
@@ -88,5 +114,6 @@ coc cpp: https://tyanjournal.com/tips/neovim-c-ide/
 <!--
 Basic directory for config setting
 $ nvim ~/.config/nvim/init.vim
+
 
 -->
