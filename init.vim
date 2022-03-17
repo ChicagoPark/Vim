@@ -23,6 +23,8 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 
+Plug 'jiangmiao/auto-pairs'
+
 set encoding=UTF-8
 
 call plug#end()
