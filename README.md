@@ -122,6 +122,18 @@ etc.
 coc cpp: https://tyanjournal.com/tips/neovim-c-ide/
 
 
+## Install Vim Bindings in Jupyter Noterbook
+
+```bash
+1. conda install -c conda-forge jupyter_contrib_nbextensions
+2. jupyter contrib nbextension install --user
+3. jupyter --data-dir
+4. MOVE TO DIRECTORY (/home/kaai/.local/share/jupyter)
+5. cd nbextensions
+6. ~/.local/share/jupyter/nbextensions$ git clone https://github.com/lambdalisue/jupyter-vim-binding.git
+7. ~/.local/share/jupyter/nbextensions$ jupyter nbextension enable jupyter-vim-binding/vim_binding
+```
+
 
 <!--
 Basic directory for config setting
