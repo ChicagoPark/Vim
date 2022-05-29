@@ -1,6 +1,6 @@
 # Vim
 
-47:30
+Useful Material: https://docs.oracle.com/cd/E19683-01/806-7612/editorvi-43/index.html
 
 
 ## [0] Useful Pluggin
